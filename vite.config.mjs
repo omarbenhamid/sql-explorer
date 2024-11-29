@@ -40,7 +40,7 @@ export default defineConfig({
         // Some magic here; Vite always builds to styles.css, we named our entrypoint SCSS file the same thing
         // so that in the base template HTML file we can include 'styles.scss', and rename just the extension
         // in the vite template tag, and get both the dev and prod builds to work.
-        styles: resolve(__dirname, '/explorer/src/scss/styles.scss'),
+        styles: resolve(__dirname, './explorer/src/scss/styles.scss'),
       },
       output: {
         entryFileNames: `[name].${process.env.APP_VERSION}.js`,
