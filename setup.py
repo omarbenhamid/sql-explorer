@@ -74,7 +74,7 @@ setup(
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     install_requires=[
         requirements("base.txt"),
     ],
